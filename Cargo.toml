@@ -1,6 +1,6 @@
 [package]
 name = "tonic-disable-doctest"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Sukhmel Vladislav <sukhmel.v@gmail.com>"]
 edition = "2021"
 license = "MIT"
@@ -13,6 +13,6 @@ exclude = [
 ]
 
 [dependencies]
-convert_case = "0.6"
-itertools = "0.10"
-tonic-build = "0.9"
+convert_case = "0.7"
+itertools = "0.14"
+tonic-build = "0.12"
