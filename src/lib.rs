@@ -122,7 +122,7 @@ mod tests {
         tonic_build::configure()
             .out_dir("target/")
             .disable_doctests_for_types([".google.api.HttpRule"])
-            .compile(
+            .compile_protos(
                 &["assets/proto/api/google/api/http.proto"],
                 &["assets/proto/"],
             )
